@@ -1,0 +1,139 @@
+body {
+    background-color: #202124;
+    color: white;
+    font-family: Roboto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.left-nav {
+    width: 15%;
+    justify-content: space-around;
+    display: flex;
+    padding-top: 6px;
+}
+
+.right-nav {
+    width: 10%;
+    justify-content: space-around;
+    display: flex;
+    padding-top: 6px;
+}
+
+.logo-google {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 175px;
+    padding-bottom: 20px;
+}
+
+.main {
+    display: block;
+}
+
+.margin-main {
+    margin: 0 auto;
+    width: auto;
+    max-width: 584px;
+    padding-top: 6px;
+    position: relative;
+}
+
+.research-bar {
+    display: flex;
+    align-items: center;
+    background: #4d5156;
+    border-radius: 24px;
+    width: auto;
+    max-width: 584px;
+    min-height: 44px;
+}
+
+.center-bar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.right-research-bar {
+    width: 75px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.center-button{
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    background-color: #303134;
+    border: 1px solid #303134;
+    border-radius: 4px;
+    color: #e8eaed;
+    font-size: 14px;
+    margin: auto;
+    height: 36px;
+    width: 135px;
+
+}
+
+.button-main {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 140px;
+    padding-right: 140px;
+    padding-top: 20px;
+    padding-bottom: 175px;
+}
+
+.footbar {
+    height: 50px;
+    background: #171717;
+    font-size: 14px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.left-footbar {
+    width: 40%;
+    justify-content: space-evenly;
+    display: flex;
+    flex-wrap: nowrap;
+    padding-top: 6px;
+}
+
+.right-footbar {
+    width: 60%;
+    justify-content: space-evenly;
+    display: flex;
+    align-items: flex-end;
+    flex-wrap: nowrap;
+}
